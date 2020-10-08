@@ -186,15 +186,6 @@
     button2_12.valueType = @[@(DLGMemValueTypeDouble)]; //数据类f型
     [button2arr addObject:button2_12];//子菜单里面的功能按钮 往这个数组里面加
     
-    KKConfigModel *button2_13 = [[KKConfigModel alloc] init];
-    button2_13.title = @"全图"; //标题
-    button2_13.type = KKConfigModelAction; //执行功能
-    button2_13.searchValue = @[@"-0.007812505573392265"]; //搜索的值
-    button2_13.editValue = @[@"-10"]; //修改的值
-    button2_13.searchType = @[@"ac"];
-    button2_13.range = @[@"all"];
-    button2_13.valueType = @[@(DLGMemValueTypeDouble)]; //数据类f型
-    [button2arr addObject:button2_13];//子菜单里面的功能按钮 往这个数组里面加
     
     
     
